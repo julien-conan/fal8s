@@ -8,7 +8,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Fal8s | Portfolio`,
   },
   plugins: [
     {
@@ -19,16 +19,16 @@ module.exports = {
         location: 'Earth',
         socialMedia: [
           {
+            title: `Homepage`,
+            href: `https://jconan.netlify.app`
+          },
+          {
             title: `Instagram`,
             href: `https://www.instagram.com/fal8s`
           },
           {
             title: `Twitter`,
             href: `https://twitter.com/f0und4710n5`
-          },
-          {
-            title: `Homepage`,
-            href: `https://jconan.netlify.app`
           }
         ]
       },
