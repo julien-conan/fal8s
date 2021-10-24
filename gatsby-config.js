@@ -29,6 +29,26 @@ module.exports = {
           {
             title: `Twitter`,
             href: `https://twitter.com/f0und4710n5`
+          },
+          {
+            title: `SoundCloud`,
+            href: `https://soundcloud.com/fallshimself/likes`
+          },
+          {
+            title: `MixCloud`,
+            href: `https://www.mixcloud.com/falls-orser/`
+          },
+          {
+            title: `Twitch`,
+            href: `https://www.twitch.tv/fal8s`
+          },
+          {
+            title: `Discord`,
+            href: `https://www.discord.com/Fallzard#2497/`
+          },
+          {
+            title: `PolarSteps`,
+            href: `https://www.polarsteps.com/fal8s/`
           }
         ]
       },
