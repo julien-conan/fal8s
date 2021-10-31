@@ -5,21 +5,18 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitleAlt: `Fal8s | Portfolio`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
-      // See the theme's README for all available options
       options: {
         name: 'fal8s',
         location: 'Earth',
         socialMedia: [
           {
-            title: `Homepage`,
+            title: `Tech Blog`,
             href: `https://jconan.netlify.app`
           },
           {
@@ -65,7 +62,8 @@ module.exports = {
       options: {
         name: `Fal8s`,
         short_name: `fal8s`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        description: `Multipotential individual trying to help others and himself improving their work and their well being. Programmer, photographer, sportive, explorer.`,
+        // Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
